@@ -81,7 +81,8 @@ BuscarProdutoPorId(id: "2"){
   ```
   {
   ObterQuantidadeProdutos
-}```
+}
+  ```
 
 <p>Obtem o produto com menor estoque e retorna suas informações</p>
 
@@ -91,26 +92,31 @@ BuscarProdutoPorId(id: "2"){
     nome_do_produto
     quantidade_em_estoque
   }
-}```
+}
+  ```
 
   
 <p>Obtem o produto com maior estoque e retorna suas informações</p>
 
-```{
+```
+  {
   ObterProdutoComMaiorEstoque{
     nome_do_produto
     quantidade_em_estoque
   }
-}```
+}
+  ```
   
   
 <p>Obtem o produtos com estoque menor que 5 e retorna suas informações</p>
 
-  ```{
+  ```
+  {
   ObterProdutosSemEstoque{
     nome_do_produto
     quantidade_em_estoque
   }
-}```
+}
+  ```
   
 </div>
